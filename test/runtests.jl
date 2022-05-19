@@ -2,6 +2,11 @@ using ICD_GEMs
 using Test
 
 @testset "ICD_GEMs.jl" begin
+    # Instantiate GEMs in various ways
+    gem_dataframe_loaded      = get_GEM_dataframe_from_cdc_gem_txt(joinpath(@__DIR__,"..","data","2018_I10gem.txt"), "I10_I9")
+    gem_dataframe_constructed = GEM(gem_dataframe_loaded.data,gem_dataframe_loaded.direction)
+    gem_dictionary_converted  = get_GEM_dict_from_GEM_dataframe(gem_dataframe_loaded)
+    gem_dictionary_loaded     = get_GEM_dictionary_from_cdc_gem_txt(joinpath(@__DIR__,"..","data","2018_I9gem.txt"), "I9_I10")
     # Test code ranges
     ## ICD-10
     @test all(get_ICD_code_range("C00-C10", "ICD-10") .==  ["C000", "C001", "C002", "C003", "C004", "C005", "C006", "C008", "C009", "C01", "C020", "C021", "C022", "C023", "C024", "C028", "C029", "C030", "C031", "C039", "C040", "C041", "C048", "C049", "C050", "C051", "C052", "C058", "C059", "C060", "C061", "C062", "C0680", "C0689", "C069", "C07", "C080", "C081", "C089", "C090", "C091", "C098", "C099", "C100", "C101", "C102", "C103", "C104", "C108", "C109"])
