@@ -57,7 +57,7 @@ Finally, let us show how to translate ICD-10 codes into ICD-9 for, as an example
 
 ```julia
 ICD_10_neoplasms = "C00-D48" # This is equivalent as explicitly specifiying all codes from C00.XX to D48.XX
-ICD_9_neoplasm   = execute_applied_mapping(GEM_I10_I9_dictionary, ["C00-D48"])  
+ICD_9_neoplasms   = execute_applied_mapping(GEM_I10_I9_dictionary, ["C00-D48"])  
 ```
 
 ```nothing
@@ -85,7 +85,7 @@ ICD_9_neoplasm   = execute_applied_mapping(GEM_I10_I9_dictionary, ["C00-D48"])
 And back:
 
 ```julia
-ICD_10_neoplasm_back   = execute_applied_mapping(GEM_I9_I10_dictionary, ICD_9_neoplasm)
+ICD_10_neoplasms_back   = execute_applied_mapping(GEM_I9_I10_dictionary, ICD_9_neoplasms)
 ```
 
 ```nothing
