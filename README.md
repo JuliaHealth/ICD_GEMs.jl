@@ -6,7 +6,7 @@
 [![Build Status](https://github.com/InPhyT/ICD_GEMs.jl/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/InPhyT/ICD_GEMs.jl/actions/workflows/CI.yml?query=branch%3Amain)
 [![Coverage](https://codecov.io/gh/InPhyT/ICD_GEMs.jl/branch/main/graph/badge.svg)](https://codecov.io/gh/InPhyT/ICD_GEMs.jl)
 [![Coverage](https://coveralls.io/repos/github/InPhyT/ICD_GEMs.jl/badge.svg?branch=main)](https://coveralls.io/github/InPhyT/ICD_GEMs.jl?branch=main)
-[![DOI](https://zenodo.org/badge/XXXXXXXXX.svg)](https://zenodo.org/badge/latestdoi/XXXXXXXXX)
+[![DOI](https://zenodo.org/badge/494094231.svg)](https://zenodo.org/badge/latestdoi/494094231)
 
 ICD_GEMs.jl is a Julia package that allows to translate ICD-9 codes in ICD-10 and viceversa via the General Equivalence Mappings ([GEMs](https://www.asco.org/practice-policy/billing-coding-reporting/icd-10/general-equivalence-mappings-gems)) of the International Classification of Diseases ([ICD](https://www.who.int/standards/classifications/classification-of-diseases)).
 
