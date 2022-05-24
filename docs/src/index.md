@@ -159,4 +159,4 @@ If you use this package in your work, please cite this repository using the meta
 - Butler (2007), [ICD-10 General Equivalence Mappings: Bridging the Translation Gap from ICD-9](https://library.ahima.org/doc?oid=74265#.Ynre9i8RoiM), *Journal of AHIMA*
 - CMS (2018), [2018 ICD-10 CM and GEMs](https://www.cms.gov/Medicare/Coding/ICD10/2018-ICD-10-CM-and-GEMs)
 - NCHS-CDC (2018), [Diagnosis Code Set General Equivalence Mappings: ICD-10-CM to ICD-9-CM and ICD-9-CM to ICD-10-CM](https://ftp.cdc.gov/pub/health_statistics/nchs/publications/ICD10CM/2018/Dxgem_guide_2018.pdf) 
-- NCHS-CDC(2022), [Comprehensive Listing ICD-10-CM Files](https://www.cdc.gov/nchs/icd/Comprehensive-Listing-of-ICD-10-CM-Files.htm) (download General Equivalence Mappings [here](https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Publications/ICD10CM/2018/Dxgem_2018.zip))
+- NCHS-CDC (2022), [Comprehensive Listing ICD-10-CM Files](https://www.cdc.gov/nchs/icd/Comprehensive-Listing-of-ICD-10-CM-Files.htm) (download General Equivalence Mappings [here](https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Publications/ICD10CM/2018/Dxgem_2018.zip))
