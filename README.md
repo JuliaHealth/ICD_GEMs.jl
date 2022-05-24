@@ -24,7 +24,7 @@ For further details on how the GEMs work, please consider to read the [Reference
 Press `]` in the Julia REPL and then
 
 ```julia
-pkg> add https://github.com/InPhyT/ICD_GEMs.jl
+pkg> add ICD_GEMs
 ```
 
 ## Tutorial 
