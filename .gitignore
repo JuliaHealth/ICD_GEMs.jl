@@ -30,3 +30,5 @@ docs/site/
 # environment.
 Manifest.toml
 .DS_Store
+.DS_Store
+docs/src/.DS_Store
