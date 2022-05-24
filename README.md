@@ -1,4 +1,4 @@
-# ICD_GEMs.jl
+# <img src="https://github.com/InPhyT/ICD_GEMs.jl/blob/main/docs/src/assets/logo.png?raw=true" width="50" height="40"> &nbsp; ICD_GEMs.jl 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/InPhyT/ICD_GEMs.jl/blob/main/LICENSE)
 [![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://InPhyT.github.io/ICD_GEMs.jl/stable)
