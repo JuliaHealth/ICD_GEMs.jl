@@ -32,3 +32,6 @@ Manifest.toml
 .DS_Store
 .DS_Store
 docs/src/.DS_Store
+.DS_Store
+docs/.DS_Store
+docs/src/.DS_Store
