@@ -150,6 +150,8 @@ More complex translations, involving both single codes and ranges with arbitrary
 execute_applied_mapping(GEM_I10_I9_dictionary, ["I60-I661", "I670", "I672-I679"])
 ```
 
+**Note**: All codes must be specified and are returned by the translation utilities without punctuation (no dot before the decimal digits).
+
 ## How to Contribute
 
 If you wish to change or add some functionality, please file an [issue](https://github.com/InPhyT/ICD_GEMs.jl/issues). 
