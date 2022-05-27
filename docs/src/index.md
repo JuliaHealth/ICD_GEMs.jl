@@ -8,6 +8,18 @@ ICD_GEMs.jl is a Julia package that allows to translate ICD-9 codes in ICD-10 an
 
 ## Overview 
 
+### ICD
+
+The ICD provides a common language for the classification of diseases, injuries and causes of death, and for the standardised reporting and monitoring of health conditions. It is designed to map health conditions to corresponding generic categories together with specific variations, assigning to these a designated code, up to six characters long. These data form the basis of comparison and sharing between health providers, regions and countries, and over periods.
+
+In addition to this essential core function, the ICD can also inform a wide range of related activities. It is used for health insurance reimbursement; in national health programme management; by data collection specialists and researchers; for tracking progress in global health; and to determine the allocation of health resources. Patient quality and safety documentation is also heavily informed by the ICD.
+
+The ICD system is designed to promote international comparability in the collection, processing, classification, and presentation of health statistics, and health information in general. Currently, 117 countries report causes of death to WHO. Seventy per cent of the world’s health resources are allocated based on ICD data. Current uses include cancer registration, pharmacovigilance, and more than 20,000 scientific articles cite ICD-10.
+
+For further details about the ICD, please consider to read the [References](#References).
+
+### GEMs
+
 The General Equivalence Mappings (GEMs) are the product of a coordinated effort spanning several years and involving the National Center for Health Statistics (NCHS), the Centers for Medicare and Medicaid Services (CMS), the American Health Information Management Association (AHIMA), the American Hospital Association, and 3M Health Information Systems providing a temporary mechanism to link ICD-9 codes to ICD-10 and vice versa. 
 
 According to the CMS: 
@@ -162,3 +174,4 @@ If you use this package in your work, please cite this repository using the meta
 - CMS (2018), [2018 ICD-10 CM and GEMs](https://www.cms.gov/Medicare/Coding/ICD10/2018-ICD-10-CM-and-GEMs)
 - NCHS-CDC (2018), [Diagnosis Code Set General Equivalence Mappings: ICD-10-CM to ICD-9-CM and ICD-9-CM to ICD-10-CM](https://ftp.cdc.gov/pub/health_statistics/nchs/publications/ICD10CM/2018/Dxgem_guide_2018.pdf) 
 - NCHS-CDC (2022), [Comprehensive Listing ICD-10-CM Files](https://www.cdc.gov/nchs/icd/Comprehensive-Listing-of-ICD-10-CM-Files.htm) (download General Equivalence Mappings [here](https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Publications/ICD10CM/2018/Dxgem_2018.zip))
+- WHO (2022), [ICD-11 Implementation or Transition Guide](https://icd.who.int/docs/ICD-11%20Implementation%20or%20Transition%20Guide_v105.pdf)
