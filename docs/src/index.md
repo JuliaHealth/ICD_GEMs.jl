@@ -150,7 +150,7 @@ get_ICD_code_range("C00-D48", "ICD-10") # Specify a code range and the revision 
  "D489"
 ```
 
-No, they are more! Why? Because the mapping between the two revisions is not injective nor surjective (see the [official documentation](https://github.com/InPhyT/ICD_GEMs.jl/tree/main/official_gem_documentation)). 
+No, they are more! Why? Because the mapping between the two revisions is not injective nor surjective (see the [official documentation](https://github.com/JuliaHealth/ICD_GEMs.jl/tree/main/official_gem_documentation)). 
 
 More complex translations, involving both single codes and ranges with arbitrary precision on both ends, can be performed:
 
@@ -164,11 +164,11 @@ execute_applied_mapping(GEM_I10_I9_dictionary, ["I60-I661", "I670", "I672-I679"]
 
 ## How to Contribute
 
-If you wish to change or add some functionality, please file an [issue](https://github.com/InPhyT/ICD_GEMs.jl/issues). 
+If you wish to change or add some functionality, please file an [issue](https://github.com/JuliaHealth/ICD_GEMs.jl/issues). 
 
 ## How to Cite 
 
-If you use this package in your work, please cite this repository using the metadata in [`CITATION.bib`](https://github.com/InPhyT/ICD_GEMs.jl/blob/main/CITATION.bib).
+If you use this package in your work, please cite this repository using the metadata in [`CITATION.bib`](https://github.com/JuliaHealth/ICD_GEMs.jl/blob/main/CITATION.bib).
 
 ## References 
 
