@@ -1,4 +1,4 @@
-# <img src="https://github.com/JuliaHealth/ICD_GEMs.jl/blob/main/docs/src/assets/logo.png?raw=true" width="50" height="40"> &nbsp; ICD_GEMs.jl 
+# ICD_GEMs.jl 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/JuliaHealth/ICD_GEMs.jl/blob/main/LICENSE)
 [![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://juliahealth.org/ICD_GEMs.jl/stable)
@@ -7,6 +7,8 @@
 [![Coverage](https://codecov.io/gh/JuliaHealth/ICD_GEMs.jl/branch/main/graph/badge.svg)](https://codecov.io/gh/JuliaHealth/ICD_GEMs.jl)
 [![Coverage](https://coveralls.io/repos/github/JuliaHealth/ICD_GEMs.jl/badge.svg?branch=main)](https://coveralls.io/github/JuliaHealth/ICD_GEMs.jl?branch=main)
 [![DOI](https://zenodo.org/badge/494094231.svg)](https://zenodo.org/badge/latestdoi/494094231)
+
+<img align="right" width="180" height="150" src="https://github.com/JuliaHealth/ICD_GEMs.jl/blob/main/docs/src/assets/logo.png?raw=true">
 
 ICD_GEMs.jl is a Julia package that allows to translate ICD-9 codes in ICD-10 and viceversa via the General Equivalence Mappings ([GEMs](https://www.asco.org/practice-policy/billing-coding-reporting/icd-10/general-equivalence-mappings-gems)) of the International Classification of Diseases ([ICD](https://www.who.int/standards/classifications/classification-of-diseases)).
 
