@@ -175,6 +175,12 @@ If you wish to change or add some functionality, please file an [issue](https://
 
 If you use this package in your work, please cite this repository using the metadata in [`CITATION.bib`](https://github.com/JuliaHealth/ICD_GEMs.jl/blob/main/CITATION.bib).
 
+## Announcements 
+
+- [Twitter](https://twitter.com/In_Phy_T/status/1529444377281671168?s=20&t=O7f9qRLdsyY8WM3TEdCWLg)
+- [Discourse](https://discourse.julialang.org/t/ann-icd-gems-jl-a-package-to-translate-between-icd-9-and-icd-10-codes/81679?u=pietromonticone)
+- [Forem](https://forem.julialang.org/inphyt/ann-icdgemsjl-a-package-to-translate-between-icd-9-and-icd-10-codes-17am)
+
 ## References 
 
 - Butler (2007), [ICD-10 General Equivalence Mappings: Bridging the Translation Gap from ICD-9](https://library.ahima.org/doc?oid=74265#.Ynre9i8RoiM), *Journal of AHIMA*
