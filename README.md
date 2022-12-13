@@ -1,13 +1,13 @@
 # ICD_GEMs.jl 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/JuliaHealth/ICD_GEMs.jl/blob/main/LICENSE)
-[![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://juliahealth.org/ICD_GEMs.jl/stable)
-[![Dev](https://img.shields.io/badge/docs-dev-lightblue.svg)](https://juliahealth.org/ICD_GEMs.jl/dev)
+[![Docs: Stable](https://img.shields.io/badge/Docs-Stable-blue.svg)](https://juliahealth.org/ICD_GEMs.jl/stable)
+[![Docs: Dev](https://img.shields.io/badge/Docs-Dev-lightblue.svg)](https://juliahealth.org/ICD_GEMs.jl/dev)
 [![CI](https://github.com/JuliaHealth/ICD_GEMs.jl/actions/workflows/CI.yml/badge.svg)](https://github.com/JuliaHealth/ICD_GEMs.jl/actions/workflows/CI.yml)
 [![Compat Helper](https://github.com/JuliaGraphs/MultilayerGraphs.jl/actions/workflows/CompatHelper.yml/badge.svg)](https://github.com/JuliaGraphs/MultilayerGraphs.jl/actions/workflows/CompatHelper.yml)
-[![Codecov Coverage](https://codecov.io/gh/JuliaHealth/ICD_GEMs.jl/branch/main/graph/badge.svg)](https://codecov.io/gh/JuliaHealth/ICD_GEMs.jl)
-[![Coveralls Coverage](https://coveralls.io/repos/github/JuliaHealth/ICD_GEMs.jl/badge.svg?branch=main)](https://coveralls.io/github/JuliaHealth/ICD_GEMs.jl?branch=main)
-[![DOI](https://zenodo.org/badge/494094231.svg)](https://zenodo.org/badge/latestdoi/494094231)
+[![Coverage: Codecov](https://codecov.io/gh/JuliaHealth/ICD_GEMs.jl/branch/main/graph/badge.svg)](https://codecov.io/gh/JuliaHealth/ICD_GEMs.jl)
+[![Coverage: Coveralls](https://coveralls.io/repos/github/JuliaHealth/ICD_GEMs.jl/badge.svg?branch=main)](https://coveralls.io/github/JuliaHealth/ICD_GEMs.jl?branch=main)
+[![DOI: Zenodo](https://zenodo.org/badge/494094231.svg)](https://zenodo.org/badge/latestdoi/494094231)
 
 <img align="right" width="180" height="150" src="https://github.com/JuliaHealth/ICD_GEMs.jl/blob/main/docs/src/assets/logo.png?raw=true">
 
@@ -39,7 +39,7 @@ For further details on how the GEMs work, please consider to read the [Reference
 
 Press `]` in the Julia REPL and then
 
-```julia
+```nothing
 pkg> add ICD_GEMs
 ```
 

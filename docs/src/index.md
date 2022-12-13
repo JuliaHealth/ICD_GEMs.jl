@@ -41,7 +41,7 @@ For further details on how the GEMs work, please consider to read the [Reference
 
 Press `]` in the Julia REPL and then
 
-```julia
+```nothing
 pkg> add ICD_GEMs
 ```
 
@@ -78,7 +78,7 @@ gem       = get_GEM_dataframe_from_cdc_gem_txt(path, direction) # Or get_GEM_dic
 Finally, let us show how to translate ICD-10 codes into ICD-9 for, as an example, neoplasms:
 
 ```julia
-ICD_10_neoplasms = "C00-D48" # This is equivalent as explicitly specifiying all codes from C00.XX to D48.XX
+ICD_10_neoplasms = "C00-D48" # This is equivalent as explicitly specifying all codes from C00.XX to D48.XX
 ICD_9_neoplasms   = execute_applied_mapping(GEM_I10_I9_dictionary, ["C00-D48"])  
 ```
 
