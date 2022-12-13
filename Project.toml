@@ -1,7 +1,7 @@
 name = "ICD_GEMs"
 uuid = "2478728f-ce00-4f2d-aaa1-6f265bd37e5b"
 authors = ["Pietro Monticone <38562595+pitmonticone@users.noreply.github.com>", "Claudio Moroni <43729990+ClaudMor@users.noreply.github.com>"]
-version = "1.0.3"
+version = "1.0.4"
 
 [deps]
 DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
